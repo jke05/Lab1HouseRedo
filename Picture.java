@@ -91,4 +91,8 @@ public class Picture
         sun.changeColor("blue");
         sun2.changeColor("yellow");
     }
+    
+    public void sunset(){
+        sun.slowMoveVertical(300);
+    }
 }
